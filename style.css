@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=BenchNine:300,400);
+
+* { margin: 0; padding: 0; font-weight: 100; }
+
+body {
+  font-family: 'BenchNine', sans-serif;
+  font-size: large;
+  font-weight: 300;
+}
+
+.contents {
+  max-width: 44.5em;
+  line-height: 1.8em;
+  margin: 3em auto 1em;
+  padding: 0 1em;
+  background-image: url('/originerd.png');
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.7em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+.name, h2, h3 {
+  font-weight: 400;
+}
+
+ul {
+  color: #666;
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+ul a, ul a:visited {
+  color: #41C1C1;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 0 0.25em;
+}
+
+ul a:hover {
+  background-color: #41C1C1;
+  color: #FFF;
+  border-radius: 0.4em;
+}
+
+ul li {
+  display: block;
+}
+
+section {
+  margin-top: 1.2em;
+}
+
+.aka {
+  position: absolute;
+  margin-left: 0.5em;
+  line-height: 1.25em;
+  font-size: 0.4em;
+  text-align: left;
+}
+
+#nickname {
+  padding: 0 0.25em;
+  background-color: #41C1C1;
+  color: #FFF;
+  border-radius: 0.4em;
+}
+
+@media screen and (max-width:480px) {
+  body {
+    font-size: medium;
+  }
+}
