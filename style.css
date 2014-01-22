@@ -13,7 +13,7 @@ body {
   line-height: 1.8em;
   margin: 3em auto 1em;
   padding: 0 1em;
-  background-image: url('/originerd.png');
+  background-image: url('originerd.png');
   background-repeat: no-repeat;
   background-position: center right;
   background-size: contain;
