@@ -3,6 +3,7 @@
 * { margin: 0; padding: 0; font-weight: 100; }
 
 body {
+  min-width: 251px;
   font-family: 'BenchNine', sans-serif;
   font-size: large;
   font-weight: 300;
