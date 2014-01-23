@@ -3,6 +3,7 @@
 * { margin: 0; padding: 0; font-weight: 100; }
 
 body {
+  min-width: 285px;
   font-family: 'BenchNine', sans-serif;
   font-size: large;
   font-weight: 300;
@@ -56,11 +57,7 @@ section {
 }
 
 .aka {
-  position: absolute;
-  margin-left: 0.5em;
-  line-height: 1.25em;
   font-size: 0.4em;
-  text-align: left;
 }
 
 #nickname {
@@ -68,6 +65,10 @@ section {
   background-color: #41C1C1;
   color: #FFF;
   border-radius: 0.4em;
+}
+
+.aka, #nickname {
+  vertical-align: top;
 }
 
 @media screen and (max-width:480px) {
