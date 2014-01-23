@@ -10,10 +10,10 @@ body {
 }
 
 .contents {
-  max-width: 23em;
+  max-width: 44.5em;
   line-height: 1.8em;
   margin: 3em auto 1em;
-  padding: 0 1em;
+  padding: 0 2em;
   background-image: url('originerd.png');
   background-repeat: no-repeat;
   background-position: center right;
