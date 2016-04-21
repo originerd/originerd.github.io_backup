@@ -31,20 +31,7 @@ h2 {
 
 h2 a, h2 a:visited {
   color: #41C1C1;
-  border-radius: 0.4em;
   text-decoration: none;
-  padding: 0 0.25em;
-  -webkit-transition: background 0.5s linear;
-  -moz-transition: background 0.5s linear;
-  -ms-transition: background 0.5s linear;
-  -o-transition: background 0.5s linear;
-  transition: background 0.5s linear;
-}
-
-h2 a:hover {
-  background-color: #41C1C1;
-  color: #FFF;
-  border-radius: 0.4em;
 }
 
 .name, h2, h3 {
